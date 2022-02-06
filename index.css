@@ -3,6 +3,10 @@ body {
     font-weight: lighter;
     color: white;
     margin-left: 2rem;
-    
-
+}
+#button {
+    background-color: #3937BB;
+    color: white;
+    font-size: 18px;
+    padding: 5px;
 }
