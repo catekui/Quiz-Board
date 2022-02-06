@@ -4,8 +4,17 @@ function totalScore (){
     var question3=document.getElementsByName("question3");
     var question4=document.getElementsByName("question4");
     var question5=document.getElementsByName("question5");
+    var score=0;
 
-
+    
+    for (var i=0, length=question1.length;i<length;i++){
+        if(question1[i].checked) {
+            var ans1=question1(i).value
+            if(question1[i].value==="c")
+                {score+=20
+                }
+        }
+    }
 
 
 
