@@ -12,10 +12,10 @@
         <form name="Quiz" id="Quiz">
         <div>
             <p>1.Inside which HTML element do we put the JavaScript?</p>
-            <p><input type="radio" name="ques1" value="javascript">a. javascript</p>
-            <p><input type="radio" name="ques1" value="js">b. js</p>
-            <p><input type="radio" name="ques1" value="script">c. script</p>
-            <p><input type="radio" name="ques1" value="scripting">d. scripting</p>
+            <p><input type="radio" name="question1" value="javascript">a. javascript</p>
+            <p><input type="radio" name="question1" value="js">b. js</p>
+            <p><input type="radio" name="question1" value="script">c. script</p>
+            <p><input type="radio" name="question1" value="scripting">d. scripting</p>
 
         </div>
 
@@ -48,15 +48,13 @@
             <p><input type="radio" name="question5" value="fixed()">c. fixed()</p>
             <p><input type="radio" name="question5" value="italics()">d. italics()</p>
         </div>
+        <input type="button" name="" value="Submit" onclick="check()">
     </form>
+    <p id="Results"></p>
         
-        <input type="button" name="submit" onclick="check()">
+        
 
-        <div id="after_submit">
-            <p> <output id="answer"></output></p>
-            <p><output id="feedback"></output></p>
-
-    </div>
+    
 
     <script src="script.js"></script>
 </body>
