@@ -24,7 +24,15 @@ function totalScore (){
             }
         }
     }
-    
+
+    for (var i=0, length=question3.length;i<length;i++){
+        if(question3[i].checked) {
+            var ans3=question3(i).value
+            if(question3[i].value==="a")
+            {score+=20
+            }
+        }
+    }
 
 
 
