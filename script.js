@@ -43,6 +43,14 @@ function totalScore (){
         }
     }
 
-    
+    for (var i=0,length=question5.length;i<length;i++) {
+        if (question5[i].checked) {
+            var ans5=question5(i).value
+            if(question5[i].value==="d")
+            { score=+20
+            }
+        }
+    }
+
 
 }
