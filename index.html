@@ -8,8 +8,8 @@
     <title>Quiz Board</title>
 </head>
 <body>
-    <div class="container">
-        <form action="">
+    
+        <form name="Quiz" id="Quiz">
         <div>
             <p>1.Inside which HTML element do we put the JavaScript?</p>
             <p><input type="radio" name="ques1" value="javascript">a. javascript</p>
@@ -50,11 +50,11 @@
         </div>
     </form>
         
-        <input type="button" name="submit" onclick="totalScore()">
-    </div>
-    <div id="after_submit">
-        <p> <output id="answer"></output></p>
-        <p><output id="feedback"></output></p>
+        <input type="button" name="submit" onclick="check()">
+
+        <div id="after_submit">
+            <p> <output id="answer"></output></p>
+            <p><output id="feedback"></output></p>
 
     </div>
 
