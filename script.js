@@ -34,6 +34,15 @@ function totalScore (){
         }
     }
 
+    for (var i=0, length=question4.length;i<length;i++) {
+        if(question4[i].checked) {
+            var ans4=question4(i).value
+            if(question4[i].value==="b")
+            {score+=20
+            }
+        }
+    }
 
+    
 
 }
